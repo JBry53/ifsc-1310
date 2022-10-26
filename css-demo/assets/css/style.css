@@ -32,3 +32,24 @@ header.primary{
     /*top/bottom | left/right */
     padding: 20px 40px;
 }
+
+header.primary h1{
+    font-size:2.6rem;
+    margin:10px 0 20px;
+}
+
+header.primary h1 a {
+    color:#ffffff;
+    text-decoration:none;
+}
+
+header.primary h2{
+    font-size: 1.6rem;
+    /* top | left/right | bottom */
+    margin: 0 auto 40px
+}
+
+header.primary nav{
+    background:red;
+    width: 80vw;
+}
