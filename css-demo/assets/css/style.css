@@ -210,7 +210,9 @@ border:2px solid #F5DC00;
 border-collapse: collapse;
 width:100%;
 }
-tr:nth :nth-child(even){}
+tr:nth :nth-child(even){ 
+    background-color:  #F5DC00;
+}
 th{
     background-color: #9392AD;
     color: #ffffff;
@@ -219,8 +221,47 @@ th{
 td{
     border:1px solid #F5DC00;
     padding:5px;
+    width:33%;
+    text-align: right;
 }
 
+td:first-of-type{
+    text-align: left;
+}
+
+#demo ol{
+    list-style-type:upper-alpha;
+}
+
+#demo ul{
+    list-style-type:square;
+}
+
+#demo ul ul{
+    list-style-type: circling;
+    color:red
+}
+
+#demo dl{
+
+}
+
+#demo dt{
+font-weight:bold;
+}
+#demo dd{
+margin:0;
+}
+
+/* adjacent sibling combinator*/
+dd + dt{
+    margin-top: 20xp;
+}
+
+#demo blockquote{
+    background-color: #F5DC00
+    padding: 40px
+}
 aside .container{
     display: flex;
     justify-content: space-between;
