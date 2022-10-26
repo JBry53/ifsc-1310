@@ -28,7 +28,7 @@ body{
 }
 
 header.primary{
-    background-color:#1811A8;
+    background-color:#B6B3F5;
     text-align: center;
     text-shadow:1px 1px #000000;
     color: #ffffff;
@@ -95,7 +95,7 @@ header.primary ul li a:hover, header.primary ul li a:active{
 
 section#intro h2{
     color:#1811A8;
-    border-bottom:1px dotted #c0c0c0;
+    border-bottom:1px dotted #B6B3F5;
 }
 
 #content{
@@ -125,4 +125,13 @@ font-size:.8rem;
 
 #content article.post:hover{
     box-shadow: 0 8px 16px rgba(0,0,0,.3)
+}
+
+time.post-date{
+    text-transform: uppercase;
+    color:#B6B3F5;
+}
+
+.post figure{
+    margin:0;
 }
