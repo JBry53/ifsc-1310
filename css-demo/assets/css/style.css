@@ -28,7 +28,7 @@ body{
 }
 
 header.primary{
-    background-color:#B6B3F5;
+    background-color:#F5DC00;
     text-align: center;
     text-shadow:1px 1px #000000;
     color: #ffffff;
@@ -129,7 +129,7 @@ font-size:.8rem;
 
 time.post-date{
     text-transform: uppercase;
-    color:#B6B3F5;
+    color:#F5DC00;
 }
 
 .post figure{
