@@ -20,4 +20,15 @@ header.primary{
     text-align: center;
     text-shadow:1px 1px #000000;
     color: #ffffff;
+    /* long form */
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    /*T,R,B,L*/
+    padding: 40px 40px 40px 40px;
+    /* Single Value Applies to all sides */
+    padding: 40px;
+    /*top/bottom | left/right */
+    padding: 20px 40px;
 }
