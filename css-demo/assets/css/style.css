@@ -17,4 +17,7 @@ body{
 
 header.primary{
     background-color:#1811A8;
+    text-align: center;
+    text-shadow:1px 1px #000000;
+    color: #ffffff;
 }
