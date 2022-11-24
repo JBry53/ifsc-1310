@@ -211,7 +211,7 @@ border-collapse: collapse;
 width:100%;
 }
 tr:nth :nth-child(even){ 
-    background-color:  #F5DC00;
+    background-color:  #080808;
 }
 th{
     background-color: #9392AD;
@@ -259,7 +259,7 @@ dd + dt{
 }
 
 #demo blockquote{
-    background-color: #F5DC00
+    background-color: #F5DC00;
     padding: 40px
 }
 aside .container{
