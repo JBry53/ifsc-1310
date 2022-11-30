@@ -59,24 +59,28 @@ body{
     line-height: 1.2rem;
 }
 
-header.primary{
+header.primary {
+    background-color: #181c1f;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+    /* Shorhand T,R,B,L*/
+    padding: 6em 2em;
+    position: relative;
+}
+
+header.primary::before {
+
+    content:"";
 
 background-image: url("segway_color_logo.gif");
-    
-    text-align: center;
-    text-shadow:1px 1px #000000;
-    color: #cccc;
-    /* long form */
-    padding-top: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    padding-left: 40px;
-    /*T,R,B,L*/
-    padding: 40px 40px 40px 40px;
-    /* Single Value Applies to all sides */
-    padding: 40px;
-    /*top/bottom | left/right */
-    padding: 20px 40px;
+background-size: cover;
+position: absolute;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+opacity: 0.5;
 }
 
 header.primary h1{
