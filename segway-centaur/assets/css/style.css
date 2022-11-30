@@ -1,3 +1,7 @@
+/*Color Theme
+#708090-slate grey
+
+
 /* ---------- box-sizing ----------- */
 html{
     box-sizing: border-box;
@@ -20,7 +24,7 @@ img{
     border 2px solid #000000;
     padding: 5px 5px 20px 5px ;
     border-radius: 4px;
-    background-color: darkgrey;
+    background-color: #556B2F;
 }
 
 .img-left{
@@ -29,7 +33,7 @@ img{
     border: 5px solid #000000;
     padding: 5px 5px 20px 5px ;
     border-radius: 5px;
-    background-color: darkgrey;
+    background-color: #556B2F;
 }
 
 img-center{
@@ -132,7 +136,7 @@ header.primary ul li a:hover, header.primary ul li a:active{
 }
 
 section#intro h2{
-    color:#F5DC00;
+    color:#708090;
     border-bottom:1px dotted #B6B3F5;
 }
 
@@ -140,9 +144,9 @@ section#intro h2{
     display:flex;
     flex-direction:row;
     justify-content:space-evenly;
-    border-bottom: 1px dotted #F5DC00;
+    border-bottom: 1px dotted #708090;
     padding-bottom:2.4rem;
-    border-top: 1px dotted #F5DC00;
+    border-top: 1px dotted #708090;
     padding-top:2.4rem;
 }
 /* ---------- Media Queries ----------- */
@@ -171,7 +175,7 @@ font-size:.8rem;
 
 time.post-date, figcaption, footer.post-meta{
     text-transform: uppercase;
-    color:#F5DC00;
+    color:#708090;
     font-size: .6rem;
 }
 
@@ -180,13 +184,13 @@ time.post-date, figcaption, footer.post-meta{
 }
 
 .post figure img{
-    border:1px solid #F5DC00;
+    border:1px solid #708090;
     padding:4px;
     border-radius: 4px;
 }
 
 .post a{
-    color:#F5DC00;
+    color:#708090;
 }
 
 .post a:hover, .post a:active{
@@ -194,22 +198,22 @@ time.post-date, figcaption, footer.post-meta{
 }
 
 #demo h2{
-    border-left: 7.5px solid  #F5DC00;
+    border-left: 7.5px solid  #708090;
     padding: 10px;
 }
 
 #demo a{
-    color:#F5DC00;
+    color:#708090;
 }
 /* Attreibute Selector*/
 aside[role="complementary"]{
-background-color: #F5DC00;
+background-color: #708090;
 color: #ffffff;
 padding: 1.4rem;
 }
 
 table{
-border:2px solid #F5DC00;
+border:2px solid#708090;
 border-collapse: collapse;
 width:100%;
 }
@@ -222,7 +226,7 @@ th{
     padding: 10px;
 }
 td{
-    border:1px solid #F5DC00;
+    border:1px solid #708090;
     padding:5px;
     width:33%;
     text-align: right;
@@ -258,7 +262,7 @@ dd + dt{
 }
 
 #demo blockquote{
-    background-color: #F5DC00;
+    background-color: #708090;
     padding: 40px
 }
 aside .container{
@@ -287,7 +291,7 @@ aside article footer{
 }
 
 #colophon{
-    background-color: #F5DC00;
+    background-color: #708090;
 }
 
 #colphon h6{
