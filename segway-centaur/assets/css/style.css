@@ -60,13 +60,12 @@ body{
 }
 
 header.primary{
-    background-color:#F5DC00;
 
 background-image: url("segway_color_logo.gif");
     
     text-align: center;
     text-shadow:1px 1px #000000;
-    color: #ffffff;
+    color: #cccc;
     /* long form */
     padding-top: 40px;
     padding-right: 40px;
